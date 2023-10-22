@@ -1,0 +1,130 @@
+.container-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../assets/addpage.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-table {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #ffffff;
+}
+.header-buttons-table {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.title-container-table {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.title-wrappers-table {
+  display: grid;
+  place-content: center;
+  min-height: 1vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 20px;
+}
+
+.logo-8-table .h3-table {
+  color: #c05d00;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+.logo-8-table .h3-table span {
+  color: #4d1601;
+  display: inline-block;
+  padding: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  opacity: 0.5;
+  margin-left:-34px;
+}
+
+
+.style_table {
+  border-collapse: collapse;
+  margin: auto;
+  background-color: transparent;
+  font-size: 1.5em;
+  backdrop-filter: blur(20px);
+  font-family: italic;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.style_table thead tr {
+  background-color: #ffffff;
+  color: #863800;
+  text-align: left;
+}
+
+.style_table th,
+.style_table td {
+  padding: 12px 15px;
+}
+
+.style_table tbody tr {
+  border-bottom: 1px solid #ffffff;
+}
+
+.style_table tbody tr:last-of-type {
+  border-bottom: 2px solid #ffffff;
+}
+
+.btn-all {
+  border: none;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-edit {
+  background-color: rgb(255, 255, 255);
+  color: brown;
+}
+.btn-delete {
+  background-color: rgb(122, 55, 0);
+  color: #ffffff;
+}
+.btn-view {
+  background-color: rgb(189, 189, 189);
+  color: rgb(130, 58, 0);
+}
+.btn-contact {
+  background-color: rgb(49, 155, 0);
+  margin-bottom: 10px;
+}
+
+.button-table {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #ffffff;
+  color: brown;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+}

@@ -1,0 +1,99 @@
+.container-apage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../assets/adminlogin.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title-container-apage {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.title-wrappers-apage {
+  display: grid;
+  place-content: center;
+  min-height: 1vh;
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(1rem, 0.5rem + 18vw, 5rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.logo-8-apage .h3-apage {
+  color: #c05d00;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+.logo-8-apage .h3-apage span {
+  color: #4d1601;
+  display: inline-block;
+  padding: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  opacity: 0.5;
+  margin-left:-34px;
+}
+
+.wrapper-apage {
+  width: 450px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.wrapper-apage h2 {
+  font-size: 36px;
+  text-align: center;
+  color: #863800;
+}
+.wrapper-apage .input-box-a {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box-a input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #000000;
+  padding: 20px 45px 20px 20px;
+}
+.input-box-a input::placeholder {
+  color: #000000;
+}
+.input-box-a i {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper-apage .btn {
+  width: 100%;
+  height: 45px;
+  background: #863800;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
